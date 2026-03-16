@@ -1,5 +1,5 @@
 # 🐳 Multi-Stage Docker Builds
-
+Multi-stage builds use one container to build the application and another clean container to run it, copying only the final artifact (JAR/binary).
 A complete guide to understanding multi-stage Docker builds — what they are, why they matter, how to minimize image sizes, and how to apply them across different languages like **Go**, **Java**, and **Python**, including the use of **Distroless images**.
 
 ---
