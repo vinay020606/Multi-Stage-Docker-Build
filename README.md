@@ -1,7 +1,7 @@
 # 🐳 Multi-Stage Docker Builds
 Multi-stage builds use one container to build the application and another clean container to run it, copying only the final artifact (JAR/binary).
 A complete guide to understanding multi-stage Docker builds — what they are, why they matter, how to minimize image sizes, and how to apply them across different languages like **Go**, **Java**, and **Python**, including the use of **Distroless images**.
-
+<img width="1123" height="540" alt="image" src="https://github.com/user-attachments/assets/0a9a1181-a424-4d77-bf6e-03640c36c9e1" />
 ---
 
 ## 📋 Table of Contents
@@ -458,7 +458,7 @@ docker run --entrypoint=sh -it your-distroless-image
 ## Quick Reference: Image Size Comparison
 
 ```
-<img width="1123" height="540" alt="image" src="https://github.com/user-attachments/assets/0a9a1181-a424-4d77-bf6e-03640c36c9e1" />
+
 
 Language   │ Single-Stage        │ Multi-Stage (Alpine) │ Multi-Stage (Distroless/Scratch)
 ───────────┼─────────────────────┼──────────────────────┼─────────────────────────────────
